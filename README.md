@@ -1,4 +1,6 @@
 # README
+## 멋사 6기 내용 복습
+### 개인적인 Ruby on Rails 내용
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
