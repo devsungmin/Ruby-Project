@@ -2,13 +2,14 @@
 
 ## 해당 내용은 [유니라이언](https://uni.likelion.org) 내용을 복습한 내용들 입니다.
 ---
-* 개발 환경
+* <h2>개발 환경</h2>
     - mac os Mojave(10.14.5)
+    - 코드 에디터 : vscode
 
     |Ruby version | Rails version |
     |:--------:|:--------:|
     | 2.3.7 | 5.2.3|
-
+---
 ## 강좌 목록 및 소스 내용
 * first_app / ruby_files
     - [Rails First APP_1](https://uni.likelion.org/lectures/10)
