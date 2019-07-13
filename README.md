@@ -3,8 +3,8 @@
 ## 해당 내용은 [유니라이언](https://uni.likelion.org) 내용을 복습한 내용들 입니다.
 ---
 * <h2>개발 환경</h2>
-    - mac os Mojave(10.14.5)
-    - 코드 에디터 : vscode
+    - mac os Mojave(10.14.5)<br>
+    - Code Editor : VS Code
 
     |Ruby version | Rails version |
     |:--------:|:--------:|
