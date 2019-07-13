@@ -10,5 +10,13 @@ class UtilitiesController < ApplicationController
   end
 
   def get_stock_info
+    #사용자가 입력 하는곳
+  end
+
+  def show_stock_info
+    #사용자 입력한것을 받아서 처리 하는곳
+    #사용자가 get_stock_info에서 보낸 Data
+    inputs = [ params[:symbol_1], params[:symbol_2], params[:symbol_3] ]
+    @stock = StockQuote::Stock.quote(inputs)
   end
 end

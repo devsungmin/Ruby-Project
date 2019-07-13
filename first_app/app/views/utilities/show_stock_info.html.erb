@@ -1,0 +1,5 @@
+주식정보 보여주기
+
+<% @stock.each dp |stock| %>
+    <p><%= stock.symbol %> : <%= stock.latest_price %></p>
+<% end %>

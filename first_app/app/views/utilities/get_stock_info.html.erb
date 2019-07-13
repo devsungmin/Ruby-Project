@@ -1,2 +1,11 @@
 <h1>Utilities#get_stock_info</h1>
-<p>Find me in app/views/utilities/get_stock_info.html.erb</p>
+<p>원하는 NASDAQ 주식의 심볼을 입력하세요 : </p>
+
+<%# form 테그 안에 있는 값들을 show_stock_info으로 넘어간다 %>
+<form action = '/utilities/show_stock_info'> 
+    <%# 텍스트 입력을 받고 제출하기 버튼을 만듬 %>
+    <input type = 'text' placeholder = 'fb, amzn, appl, tsla..' name = 'symbol_1'></input>
+    <input type = 'text' placeholder = 'fb, amzn, appl, tsla..' name = 'symbol_2'></input>
+    <input type = 'text' placeholder = 'fb, amzn, appl, tsla..' name = 'symbol_3'></input>
+    <input type = 'submit' value = '제출 하기!'></input>
+</form>

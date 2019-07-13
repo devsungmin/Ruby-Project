@@ -1383,3 +1383,400 @@ Processing by UtilitiesController#pick_lucky_numbers as HTML
 Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2019-07-13 14:54:29 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 292ms (Views: 284.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities" for ::1 at 2019-07-13 14:56:52 +0900
+Processing by UtilitiesController#index as HTML
+  Rendering utilities/index.html.erb within layouts/application
+  Rendered utilities/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/pick_lucky_numbers" for ::1 at 2019-07-13 14:56:54 +0900
+Processing by UtilitiesController#pick_lucky_numbers as HTML
+  Rendering utilities/pick_lucky_numbers.html.erb within layouts/application
+  Rendered utilities/pick_lucky_numbers.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 25ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/pick_lucky_numbers" for ::1 at 2019-07-13 14:56:57 +0900
+Processing by UtilitiesController#pick_lucky_numbers as HTML
+  Rendering utilities/pick_lucky_numbers.html.erb within layouts/application
+  Rendered utilities/pick_lucky_numbers.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/pick_lucky_numbers" for ::1 at 2019-07-13 14:56:57 +0900
+Processing by UtilitiesController#pick_lucky_numbers as HTML
+  Rendering utilities/pick_lucky_numbers.html.erb within layouts/application
+  Rendered utilities/pick_lucky_numbers.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 51ms (Views: 48.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/pick_lucky_numbers" for ::1 at 2019-07-13 14:56:57 +0900
+Processing by UtilitiesController#pick_lucky_numbers as HTML
+  Rendering utilities/pick_lucky_numbers.html.erb within layouts/application
+  Rendered utilities/pick_lucky_numbers.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 27ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities" for ::1 at 2019-07-13 14:56:58 +0900
+Processing by UtilitiesController#index as HTML
+  Rendering utilities/index.html.erb within layouts/application
+  Rendered utilities/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 35ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 14:56:59 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 14:57:25 +0900
+Completed 500 Internal Server Error in 85908ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ({"error":"child \"token\" fails because [\"token\" is not allowed to be empty]"}):
+  
+app/controllers/utilities_controller.rb:18:in `get_stock_info'
+Processing by UtilitiesController#get_stock_info as HTML
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 14:58:26 +0900
+Completed 500 Internal Server Error in 15688ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ({"error":"child \"token\" fails because [\"token\" is not allowed to be empty]"}):
+  
+app/controllers/utilities_controller.rb:18:in `get_stock_info'
+Processing by UtilitiesController#get_stock_info as HTML
+Completed 500 Internal Server Error in 2014ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ({"error":"child \"token\" fails because [\"token\" is not allowed to be empty]"}):
+  
+app/controllers/utilities_controller.rb:18:in `get_stock_info'
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:00:36 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+Completed 500 Internal Server Error in 9716ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ({"error":"child \"token\" fails because [\"token\" is not allowed to be empty]"}):
+  
+app/controllers/utilities_controller.rb:18:in `get_stock_info'
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:00:58 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+Completed 500 Internal Server Error in 12492ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ({"error":"child \"token\" fails because [\"token\" is not allowed to be empty]"}):
+  
+app/controllers/utilities_controller.rb:18:in `get_stock_info'
+Started GET "/utilities/" for ::1 at 2019-07-13 15:01:17 +0900
+Processing by UtilitiesController#index as HTML
+  Rendering utilities/index.html.erb within layouts/application
+  Rendered utilities/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 26ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:01:40 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+Completed 500 Internal Server Error in 9100ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ({"error":"child \"token\" fails because [\"token\" is not allowed to be empty]"}):
+  
+app/controllers/utilities_controller.rb:18:in `get_stock_info'
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:02:53 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+Started GET "/utilities" for ::1 at 2019-07-13 15:04:13 +0900
+Completed 500 Internal Server Error in 105223ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ({"error":"child \"token\" fails because [\"token\" is not allowed to be empty]"}):
+  
+app/controllers/utilities_controller.rb:15:in `get_stock_info'
+Processing by UtilitiesController#index as HTML
+Started GET "/" for ::1 at 2019-07-13 15:04:39 +0900
+  Rendering utilities/index.html.erb within layouts/application
+  Rendered utilities/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 31ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-13 15:04:48 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 205ms (Views: 197.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities" for ::1 at 2019-07-13 15:04:53 +0900
+Processing by UtilitiesController#index as HTML
+  Rendering utilities/index.html.erb within layouts/application
+  Rendered utilities/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 26ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:04:53 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+  Rendering utilities/get_stock_info.html.erb within layouts/application
+  Rendered utilities/get_stock_info.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:06:25 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+  Rendering utilities/get_stock_info.html.erb within layouts/application
+  Rendered utilities/get_stock_info.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:06:26 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+  Rendering utilities/get_stock_info.html.erb within layouts/application
+  Rendered utilities/get_stock_info.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 29ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:07:30 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+  Rendering utilities/get_stock_info.html.erb within layouts/application
+  Rendered utilities/get_stock_info.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:07:49 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+  Rendering utilities/get_stock_info.html.erb within layouts/application
+  Rendered utilities/get_stock_info.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 34ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:10:07 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+  Rendering utilities/get_stock_info.html.erb within layouts/application
+  Rendered utilities/get_stock_info.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:10:08 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+  Rendering utilities/get_stock_info.html.erb within layouts/application
+  Rendered utilities/get_stock_info.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:10:30 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+  Rendering utilities/get_stock_info.html.erb within layouts/application
+  Rendered utilities/get_stock_info.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:11:05 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+  Rendering utilities/get_stock_info.html.erb within layouts/application
+  Rendered utilities/get_stock_info.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:14:05 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+  Rendering utilities/get_stock_info.html.erb within layouts/application
+  Rendered utilities/get_stock_info.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:14:47 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+  Rendering utilities/get_stock_info.html.erb within layouts/application
+  Rendered utilities/get_stock_info.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/show_stock_info" for ::1 at 2019-07-13 15:14:59 +0900
+Processing by UtilitiesController#show_stock_info as HTML
+Completed 500 Internal Server Error in 1713ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ({"error":"child \"token\" fails because [\"token\" is not allowed to be empty]"}):
+  
+app/controllers/utilities_controller.rb:18:in `show_stock_info'
+Started GET "/utilities/show_stock_info" for ::1 at 2019-07-13 15:16:16 +0900
+Processing by UtilitiesController#show_stock_info as HTML
+Completed 500 Internal Server Error in 676ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ({"error":"child \"token\" fails because [\"token\" is not allowed to be empty]"}):
+  
+app/controllers/utilities_controller.rb:18:in `show_stock_info'
+Started GET "/utilities/show_stock_info" for ::1 at 2019-07-13 15:16:26 +0900
+Processing by UtilitiesController#show_stock_info as HTML
+  Rendering utilities/show_stock_info.html.erb within layouts/application
+  Rendered utilities/show_stock_info.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/show_stock_info" for ::1 at 2019-07-13 15:16:40 +0900
+Processing by UtilitiesController#show_stock_info as HTML
+Completed 500 Internal Server Error in 2257ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ({"error":"child \"token\" fails because [\"token\" is not allowed to be empty]"}):
+  
+app/controllers/utilities_controller.rb:18:in `show_stock_info'
+Started GET "/utilities/show_stock_info" for ::1 at 2019-07-13 15:20:13 +0900
+Processing by UtilitiesController#show_stock_info as HTML
+Completed 500 Internal Server Error in 2151ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ({"error":"child \"token\" fails because [\"token\" is not allowed to be empty]"}):
+  
+app/controllers/utilities_controller.rb:19:in `show_stock_info'
+Started GET "/utilities/" for ::1 at 2019-07-13 15:21:01 +0900
+Processing by UtilitiesController#index as HTML
+  Rendering utilities/index.html.erb within layouts/application
+  Rendered utilities/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:21:03 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+  Rendering utilities/get_stock_info.html.erb within layouts/application
+  Rendered utilities/get_stock_info.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/show_stock_info" for ::1 at 2019-07-13 15:21:16 +0900
+Processing by UtilitiesController#show_stock_info as HTML
+Completed 500 Internal Server Error in 676ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ({"error":"child \"token\" fails because [\"token\" is not allowed to be empty]"}):
+  
+app/controllers/utilities_controller.rb:20:in `show_stock_info'
+Started GET "/utilities/" for ::1 at 2019-07-13 15:23:19 +0900
+Processing by UtilitiesController#index as HTML
+  Rendering utilities/index.html.erb within layouts/application
+  Rendered utilities/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:28:16 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+  Rendering utilities/get_stock_info.html.erb within layouts/application
+  Rendered utilities/get_stock_info.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/show_stock_info?symbol=aapl" for ::1 at 2019-07-13 15:28:19 +0900
+Processing by UtilitiesController#show_stock_info as HTML
+  Parameters: {"symbol"=>"aapl"}
+Completed 500 Internal Server Error in 812ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ({"error":"child \"token\" fails because [\"token\" is not allowed to be empty]"}):
+  
+app/controllers/utilities_controller.rb:19:in `show_stock_info'
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:29:26 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+  Rendering utilities/get_stock_info.html.erb within layouts/application
+  Rendered utilities/get_stock_info.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:31:57 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+  Rendering utilities/get_stock_info.html.erb within layouts/application
+  Rendered utilities/get_stock_info.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:31:57 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+  Rendering utilities/get_stock_info.html.erb within layouts/application
+  Rendered utilities/get_stock_info.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 30ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:31:58 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+  Rendering utilities/get_stock_info.html.erb within layouts/application
+  Rendered utilities/get_stock_info.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 30ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:34:38 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+  Rendering utilities/get_stock_info.html.erb within layouts/application
+  Rendered utilities/get_stock_info.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 213ms (Views: 205.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:40:50 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+  Rendering utilities/get_stock_info.html.erb within layouts/application
+  Rendered utilities/get_stock_info.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 43ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:41:48 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+  Rendering utilities/get_stock_info.html.erb within layouts/application
+  Rendered utilities/get_stock_info.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/show_stock_info?symbol_1=aapl&symbol_2=fb&symbol_3=amzn" for ::1 at 2019-07-13 15:41:56 +0900
+Processing by UtilitiesController#show_stock_info as HTML
+  Parameters: {"symbol_1"=>"aapl", "symbol_2"=>"fb", "symbol_3"=>"amzn"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 1..2)):
+  
+app/controllers/utilities_controller.rb:18:in `show_stock_info'
+Started GET "/utilities/get_stock_info" for ::1 at 2019-07-13 15:43:40 +0900
+Processing by UtilitiesController#get_stock_info as HTML
+  Rendering utilities/get_stock_info.html.erb within layouts/application
+  Rendered utilities/get_stock_info.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/utilities/show_stock_info?symbol_1=aapl&symbol_2=fb&symbol_3=amzn" for ::1 at 2019-07-13 15:43:50 +0900
+Processing by UtilitiesController#show_stock_info as HTML
+  Parameters: {"symbol_1"=>"aapl", "symbol_2"=>"fb", "symbol_3"=>"amzn"}
+Completed 500 Internal Server Error in 742ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ({"error":"child \"token\" fails because [\"token\" is not allowed to be empty]"}):
+  
+app/controllers/utilities_controller.rb:19:in `show_stock_info'
+Started GET "/" for ::1 at 2019-07-13 15:44:54 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
