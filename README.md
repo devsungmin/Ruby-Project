@@ -19,4 +19,5 @@
     - [Ruby 주식정보 가져오기](https://uni.likelion.org/lectures/14)
     - [Ruby 주식정보 가져오기](https://uni.likelion.org/lectures/16)
 * second_app
-    -  [Rails Model](https://uni.likelion.org/lectures/17) 
+    -  [Rails Model](https://uni.likelion.org/lectures/17)
+    -  [CRUD_실습](https://uni.likelion.org/lectures/18)
