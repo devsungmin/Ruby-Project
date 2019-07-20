@@ -23,4 +23,4 @@
     -  [CRUD_실습](https://uni.likelion.org/lectures/18)
     -  [Rails_Create](https://uni.likelion.org/lectures/19)
     -  [Rails_Read](https://uni.likelion.org/lectures/20)
-    
+    -  [Rails_Destroy](https://uni.likelion.org/lectures/21)
