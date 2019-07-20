@@ -21,4 +21,12 @@ class NotesController < ApplicationController
         @note = Note.find params[:id]
     end
 
+    #Update
+
+    #Destroy
+    def destroy
+        @note = Note.find params[:id]
+        @note.destroy
+        redirect_to '/notes'
+    end
 end
