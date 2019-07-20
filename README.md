@@ -22,3 +22,5 @@
     -  [Rails Model](https://uni.likelion.org/lectures/17)
     -  [CRUD_실습](https://uni.likelion.org/lectures/18)
     -  [Rails_Create](https://uni.likelion.org/lectures/19)
+    -  [Rails_Read](https://uni.likelion.org/lectures/20)
+    
