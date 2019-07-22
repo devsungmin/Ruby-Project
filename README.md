@@ -26,3 +26,4 @@
     -  [Rails_Destroy](https://uni.likelion.org/lectures/21)
     -  [Rails_Update](https://uni.likelion.org/lectures/22)
     -  [Rails_RESTful_routing](https://uni.likelion.org/lectures/23)
+    -  [Model_Association](https://uni.likelion.org/lectures/24)
