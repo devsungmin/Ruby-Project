@@ -27,3 +27,4 @@
     -  [Rails_Update](https://uni.likelion.org/lectures/22)
     -  [Rails_RESTful_routing](https://uni.likelion.org/lectures/23)
     -  [Model_Association](https://uni.likelion.org/lectures/24)
+    -  [Model_Association_실습](https://uni.likelion.org/lectures/25)
