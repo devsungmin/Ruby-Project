@@ -10,21 +10,27 @@
     |:--------:|:--------:|
     | 2.3.7 | 5.2.3|
 ---
-## 강좌 목록 및 소스 내용
-* first_app / ruby_files
-    - [Rails First APP_1](https://uni.likelion.org/lectures/10)
-    - [Rails First APP_2](https://uni.likelion.org/lectures/11)
-    - [Rails First APP_3](https://uni.likelion.org/lectures/12)
-    - [Rails First APP_4](https://uni.likelion.org/lectures/13)
-    - [Ruby 주식정보 가져오기](https://uni.likelion.org/lectures/14)
-    - [Ruby 주식정보 가져오기](https://uni.likelion.org/lectures/16)
-* second_app
-    -  [Rails Model](https://uni.likelion.org/lectures/17)
-    -  [CRUD_실습](https://uni.likelion.org/lectures/18)
-    -  [Rails_Create](https://uni.likelion.org/lectures/19)
-    -  [Rails_Read](https://uni.likelion.org/lectures/20)
-    -  [Rails_Destroy](https://uni.likelion.org/lectures/21)
-    -  [Rails_Update](https://uni.likelion.org/lectures/22)
-    -  [Rails_RESTful_routing](https://uni.likelion.org/lectures/23)
-    -  [Model_Association](https://uni.likelion.org/lectures/24)
-    -  [Model_Association_실습](https://uni.likelion.org/lectures/25)
+* ## 강좌 목록 및 소스 내용
+---
+* ## [first_app](https://github.com/devsungmin/Ruby-Project/tree/master/first_app) / [ruby_files](https://github.com/devsungmin/Ruby-Project/tree/master/ruby_files)
+|제목 | 링크 |
+|:--------:|:--------:|
+|Rails First APP_1 | [바로가기](https://uni.likelion.org/lectures/10) |
+|Rails First APP_2 | [바로가기](https://uni.likelion.org/lectures/11) |
+|Rails First APP_3 | [바로가기](https://uni.likelion.org/lectures/12) |
+|Rails First APP_4 | [바로가기](https://uni.likelion.org/lectures/13) |
+|Ruby 주식정보 가져오기 | [바로가기](https://uni.likelion.org/lectures/14) |
+|Rails First APP_5 | [바로가기](https://uni.likelion.org/lectures/16) |
+---
+* ## [second_app](https://github.com/devsungmin/Ruby-Project/tree/master/second_app)
+|제목 | 링크 |
+|:--------:|:--------:|
+|Rails Model | [바로가기](https://uni.likelion.org/lectures/17) |
+|CRUD_실습 | [바로가기](https://uni.likelion.org/lectures/18) |
+|Rails_Create | [바로가기](https://uni.likelion.org/lectures/19) |
+|Rails_Read | [바로가기](https://uni.likelion.org/lectures/20) |
+|Rails_Destroy | [바로가기](https://uni.likelion.org/lectures/21) |
+|Rails_Update| [바로가기](https://uni.likelion.org/lectures/22) |
+|Rails_RESTful_routing | [바로가기](https://uni.likelion.org/lectures/23) |
+|Model_Association | [바로가기](https://uni.likelion.org/lectures/24) |
+|Model_Association_실습 | [바로가기](https://uni.likelion.org/lectures/25) |
