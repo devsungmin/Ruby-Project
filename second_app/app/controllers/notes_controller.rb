@@ -18,6 +18,7 @@ class NotesController < ApplicationController
     end
     
     def show
+        @token = form_authenticity_token
         @note = Note.find params[:id]
     end
 

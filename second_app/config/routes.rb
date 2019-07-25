@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+#Note
   # Create
   get '/notes/new' => 'notes#new'
   post '/notes' => 'notes#create'
@@ -10,4 +11,12 @@ Rails.application.routes.draw do
   patch '/notes/:id' => 'notes#update'
   # Destroy
   delete  '/notes/:id' => 'notes#destroy'
+
+#Comment
+  #create
+  post '/comments' => 'comments#create'
+
+  #Destroy
+  delete '/comments/:id' => 'comments#destroy'
+  
 end
