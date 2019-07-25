@@ -35,3 +35,4 @@
 |Model_Association | [바로가기](https://uni.likelion.org/lectures/24) |
 |Model_Association_실습 | [바로가기](https://uni.likelion.org/lectures/25) |
 |Comment_Model| [바로가기](https://uni.likelion.org/lectures/26) |
+|Comment_CRD | [바로가기](https://uni.likelion.org/lectures/27) |
