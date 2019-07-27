@@ -36,3 +36,8 @@
 |Model_Association_실습 | [바로가기](https://uni.likelion.org/lectures/25) |
 |Comment_Model| [바로가기](https://uni.likelion.org/lectures/26) |
 |Comment_CRD | [바로가기](https://uni.likelion.org/lectures/27) |
+---
+* ## [scaffold_app](https://github.com/devsungmin/Ruby-Project/tree/master/scaffold_app)
+|제목 | 링크 |
+|:--------:|:--------:|
+|Scaffold_intro | [바로가기](https://uni.likelion.org/lectures/28) |
