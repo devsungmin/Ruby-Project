@@ -5,6 +5,11 @@ class ArticlesController < ApplicationController
   end
 
   def create
+    @article = Article.new
+    @article.title = parmas[:input_title]
+    @article.content = parmas[:input_content]
+    @article.save
+    redirect_to article_url
   end
 
   def show
@@ -26,5 +31,5 @@ class ArticlesController < ApplicationController
   def set_article
     @article = Article.find(parmas[:id])
   end
-  
+
 end
