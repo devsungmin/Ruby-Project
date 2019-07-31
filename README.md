@@ -9,6 +9,7 @@
     |Ruby version | Rails version |
     |:--------:|:--------:|
     | 2.3.7 | 5.2.3|
+    ![Ruby on Rails!!](./img/1.PNG)
 ---
 * ## 강좌 목록 및 소스 내용
 ---
