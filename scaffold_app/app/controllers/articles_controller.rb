@@ -5,11 +5,9 @@ class ArticlesController < ApplicationController
   end
 
   def create
-    @article = Article.new
-    @article.title = parmas[:input_title]
-    @article.content = parmas[:input_content]
+    @article = Article.new(article_params)
     @article.save
-    redirect_to article_url
+    redirect_to @article
   end
 
   def show
@@ -30,6 +28,10 @@ class ArticlesController < ApplicationController
   private
   def set_article
     @article = Article.find(parmas[:id])
+  end
+
+  def article_params
+    params.require(:article).permit(:title, :content)
   end
 
 end
