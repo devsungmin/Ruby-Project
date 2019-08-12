@@ -44,3 +44,4 @@
 |:--------:|:--------:|
 |Scaffold_intro | [바로가기](https://uni.likelion.org/lectures/28) |
 |Scaffold_1 | [바로가기](https://uni.likelion.org/lectures/29) |
+|Scaffold_2 | [바로가기](https://uni.likelion.org/lectures/30) |
